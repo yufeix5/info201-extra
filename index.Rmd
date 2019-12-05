@@ -1,0 +1,43 @@
+---
+title: "index"
+author: "Yufei Xia"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+source("analysis.R")
+```
+
+## About data
+The data set mainly used for this analysis is from kaggle "London bike sharing dataset". The dataset was originally collected for predicting the future bike shares. This analysis will focus on the timestamp of london bike sharing events during the day, as well as its difference in each seasons.
+
+
+## Bike shares in different seasons
+```{r, echo=FALSE}
+p3
+```
+From the bar plot, we could see summer is the peak season of bike sharing, and winter is the season that has the least amount of bike shares. 
+
+## Bike shares during the day
+
+```{r, echo=FALSE}
+p1
+```
+
+```{r, echo=FALSE}
+p2
+```
+
+From the two plots above, we could see there are two significant peak hour of bike shares: 8 AM and 5 PM. These times in the day turn out to overlap with the time that people go to work and get off work.
+
+## Conclusion
+From the analysis, we could draw some conclusions of bike-sharing customers' habits, which may provide some insights for future bike-sharing companies. First of all, among four seasons, winter is the season that people have the least demand for bike-sharing, while summer is the highest season. And this may be caused by the weather in different seasons that affect people's willingness to riding a bike. In addition, by examing the timestamp, we could easily get the information that the peak hours of bike-sharing are overlapped with rush hours of the day.
+
+## Reflection
+By doing this analysis, I learned how to analyze a time-series dataset, as well as some new techniques to do visualization. The package 'ggplot2' of R is very powerful and I still have a lot to learn. I think I'll try to do more data analysis and visualization in the future for practice.
+
+
+
+
