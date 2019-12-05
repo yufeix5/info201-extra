@@ -1,5 +1,5 @@
 ---
-title: "index"
+title: "London Bike Sharing Analysis"
 author: "Yufei Xia"
 output: html_document
 ---
@@ -18,6 +18,7 @@ The data set mainly used for this analysis is from kaggle "London bike sharing d
 ```{r, echo=FALSE}
 p3
 ```
+
 From the bar plot, we could see summer is the peak season of bike sharing, and winter is the season that has the least amount of bike shares. 
 
 ## Bike shares during the day
